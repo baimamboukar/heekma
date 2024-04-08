@@ -1,9 +1,5 @@
 <template>
-    <div>
-        <h2>Hello Heekma</h2>
-    </div>
+  <div>
+    <Button>Click me</Button>
+  </div>
 </template>
-
-<script>
-let loading = ref(false)
-</script>
