@@ -1,5 +1,5 @@
 <template>
-    <<div>
-        <Button>Settings</Button>
-    </div>
+  <div>
+    <Button>Settings</Button>
+  </div>
 </template>
