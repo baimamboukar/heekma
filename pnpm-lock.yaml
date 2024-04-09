@@ -29,6 +29,9 @@ dependencies:
   tailwindcss-animate:
     specifier: ^1.0.7
     version: 1.0.7(tailwindcss@3.4.3)
+  vaul-vue:
+    specifier: ^0.1.0
+    version: 0.1.0(typescript@5.4.4)
   vue:
     specifier: ^3.4.21
     version: 3.4.21(typescript@5.4.4)
@@ -6878,6 +6881,17 @@ packages:
     resolution: {integrity: sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==}
     engines: {node: '>= 0.8'}
     dev: true
+
+  /vaul-vue@0.1.0(typescript@5.4.4):
+    resolution: {integrity: sha512-3PYWMbN3cSdsciv3fzewskxZFnX61PYq1uNsbvizXDo/8sN4SMrWkYDqWaPdTD3GTEm6wpx7j5flRLg7A5ZXbQ==}
+    dependencies:
+      '@vueuse/core': 10.9.0(vue@3.4.21)
+      radix-vue: 1.6.2(vue@3.4.21)
+      vue: 3.4.21(typescript@5.4.4)
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - typescript
+    dev: false
 
   /vite-hot-client@0.2.3(vite@5.2.8):
     resolution: {integrity: sha512-rOGAV7rUlUHX89fP2p2v0A2WWvV3QMX2UYq0fRqsWSvFvev4atHWqjwGoKaZT1VTKyLGk533ecu3eyd0o59CAg==}
