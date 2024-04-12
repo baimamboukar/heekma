@@ -122,6 +122,8 @@ import {
       <Bell class="h-4 w-4" />
       <span class="sr-only">Toggle notifications</span>
     </Button>
+
+    <SharedThemeSwitcher />
   </header>
 
   <!-- Header Content -->
